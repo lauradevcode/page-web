@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a:hover {
+    opacity: 10px;
+    color: #000000;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F30E2A;
+}
+
+.redes-sociais {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+}
+
+.redes-sociais li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
