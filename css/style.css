@@ -22,7 +22,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #F30E2A;
+    background: #ff4545;
+    height: 15vh;
 }
 
 .redes-sociais {
@@ -32,6 +33,14 @@ nav {
 }
 
 .redes-sociais li {
-    letter-spacing: 3px;
-    margin-left: 32px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.form {
+    display: block;
 }
