@@ -46,14 +46,16 @@ nav {
     display: flex;
 }
 
-.imagem {
-
-}
-
 .titulo {
     font-size: 22px;
     margin-top: 2%;
     text-align: center;
+}
+
+.titulo2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 10%;
 }
 
 img {
@@ -69,12 +71,28 @@ img {
     align-items: center;
     margin: auto;
     margin-right: 1%;
-    width: 60%;
+    width: 40%;
     border: 1px solid rgb(0, 0, 0);
-    padding: 40px;
+    padding: 1%;
     align-content: center;
 }
 
-.input-box {
+.form .input-box {
+    margin: 5%;
 }
 
+input {
+    align-items: center;
+    display: flex;
+}
+
+button {
+    width: 43%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    background-color: #ff4545;
+}
+
+button:hover {
+    background-color: rgb(255, 169, 188);
+}
