@@ -8,7 +8,7 @@ body {
 }
 
 a{
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: all .5s;
 }
@@ -55,7 +55,7 @@ nav {
 .titulo2 {
     font-size: 25px;
     text-align: center;
-    margin: 10%;
+    margin: 7%;
 }
 
 img {
@@ -65,34 +65,54 @@ img {
     margin-right: auto;
     width: 60%;
   }
-  
 
 .form {
-    align-items: center;
-    margin: auto;
-    margin-right: 1%;
-    width: 40%;
-    border: 1px solid rgb(0, 0, 0);
-    padding: 1%;
-    align-content: center;
+    top: 10px;
+    width: 70%;
+    padding: 0px 3% 60px 6%;
+    margin: 0 0 35px 0;
+    border: 1px solid rgba(68, 73, 78, 0.8);
+    border-radius: 6px;
+    background-color: white;
 }
 
-.form .input-box {
-    margin: 5%;
+input:not([type="checkbox"]) {
+    width: 90%;
+    padding: 9px;
+    border: 1px solid #b2b2b2;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 1px 4px 0px;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5 linear;
+    -webkit-box-shadow: 0px 1px 4px 0px;
 }
 
 input {
-    align-items: center;
-    display: flex;
+    margin: 1%;
 }
 
-button {
-    width: 43%;
-    margin-bottom: 4%;
-    margin-left: 5%;
+.item button {
     background-color: #ff4545;
+    width: 94%;
+    margin-top: 3%;
+    padding: 9px;
+    border: 1px solid #ff4545;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 1px 4px 0px;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5 linear;
+    margin-left: 5px;
 }
 
-button:hover {
-    background-color: rgb(255, 169, 188);
+.item button:hover {
+    border: 1px solid var(--color-jovem-invest);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 1);
 }
