@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://portalresiduossolidos.com/wp-content/uploads/2019/03/fundo-site-certo-1024x589.png);
+    background-image: url();
 }
 
 * {
@@ -14,7 +14,7 @@ a{
 }
 
 a:hover {
-    color: rgb(245, 105, 245);
+    color: rgb(0, 255, 213);
 }
 
 .logo {
@@ -35,7 +35,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background: #ff4545;
-    height: 15vh;
+    height: 10vh;
 }
 
 .redes-sociais {
@@ -49,78 +49,130 @@ nav {
     margin-left: 20px;
 }
 
+container-principal{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+/* Container */
 
 .container {
+    margin-top: 6%;
     display: flex;
+    align-content: center;
+    flex-direction: column;
 }
 
-.titulo {
-    border-radius: 3px;
-    color: #000000;
-    font-size: 26px;
-    margin-top: 9%;
-    text-align: center;
+.container h1 {
+    margin: 2%;
+    font-size: 35px;
 }
 
-.titulo2 {
+.container span {
+    color: #ff4545;
+}
+
+.container p {
     font-size: 25px;
-    text-align: center;
-    margin: 7%;
+    margin-left: 2%
 }
 
-img {
-    display: block;
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-  }
+.contrate button {
+    width: 200px;
+    border-radius: 25px;
+    font-weight: bolder;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 15px;
+}
+
+.contrate button a {
+    color: #ff4545;
+    animation: 0.5s;
+}
+
+.contrate button:hover a {
+    color: rgb(0, 0, 0);
+}
 
 .form {
-    top: 10px;
-    width: 70%;
-    padding: 0px 3% 60px 6%;
-    margin: 0 0 35px 0;
-    border: 1px solid rgba(68, 73, 78, 0.8);
-    border-radius: 6px;
-    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
 }
 
-input:not([type="checkbox"]) {
-    width: 90%;
-    padding: 9px;
-    border: 1px solid #b2b2b2;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0px 1px 4px 0px;
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5 linear;
-    -webkit-box-shadow: 0px 1px 4px 0px;
+.form .cont {
+    display: flex;
+    flex-direction: column;
 }
 
+.form .apresent h1{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
 
+.form .apresent p {
+    font-size: 20px;
+}
 
-.item button {
+.form .cont {
+    margin-top: 2%;
+    font-size: 17px;
+}
+
+.form .cont label{
+    text-align: center;
+}
+
+.form .cont input{
+    width: 500px;
+    height: 25px;
+    margin: 2%;
+}
+
+.form .contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .contato label, textarea {
+    font-size: 17px;
+    margin: 2%;
+}
+
+.form .contato {
+    display: flex;
+    text-align: center;
+}
+
+.form .button-form button {
+    margin: 2%;
+    width: 500px;
+    height: 25px;
     background-color: #ff4545;
-    width: 94%;
-    margin-top: 3%;
-    padding: 9px;
-    border: 1px solid #ff4545;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0px 1px 4px 0px;
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5 linear;
-    margin-left: 5px;
+    color: white;
+    transition: .4s;
 }
 
-.item button:hover {
-    border: 1px solid var(--color-jovem-invest);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    -webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 1);
-    box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 1);
+.form .button-form button:hover {
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.container-fim {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.container-fim h1{
+    font-size: 50px;
+}
+
+.container-fim p {
+    font-size: 30px;
 }
