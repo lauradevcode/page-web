@@ -1,6 +1,7 @@
-body {
-    background-image: url();
+.pricipal {
+    background-image: url(https://image.freepik.com/vetores-gratis/vetor-de-fundo-de-padrao-geometrico-branco-e-cinza_53876-136510.jpg);
 }
+
 
 * {
     margin: 0;
@@ -16,6 +17,8 @@ a{
 a:hover {
     color: rgb(0, 255, 213);
 }
+
+/* nav */
 
 .logo {
 	overflow:hidden;
@@ -49,16 +52,14 @@ nav {
     margin-left: 20px;
 }
 
-container-principal{
-    display: flex;
-    align-items: center;
-    align-content: center;
-}
-
 /* Container */
 
+.pricipal {
+    display: flex;
+}
+
 .container {
-    margin-top: 6%;
+    margin: 5%;
     display: flex;
     align-content: center;
     flex-direction: column;
@@ -95,6 +96,16 @@ container-principal{
 .contrate button:hover a {
     color: rgb(0, 0, 0);
 }
+
+.imagem img {
+    display: flex;
+    margin-top: 4em;
+}
+
+/* container secundario  */
+
+
+/* tela de formulario */
 
 .form {
     display: flex;
@@ -138,6 +149,7 @@ container-principal{
 }
 
 .form .contato label, textarea {
+    width: 500px;
     font-size: 17px;
     margin: 2%;
 }
@@ -161,6 +173,8 @@ container-principal{
     color: rgba(255, 255, 255, 0.466);
 }
 
+/* tela de agradecimento */
+
 .container-fim {
     display: flex;
     align-items: center;
@@ -175,4 +189,42 @@ container-principal{
 
 .container-fim p {
     font-size: 30px;
+}
+
+@media (max-width: 640px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        background-color: rgb(255, 0, 0);
+        overflow: hidden;
+    }
+
+    nav p {
+        display: none;
+    }
+    nav a {
+        float: left;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+    .pricipal {
+        flex-direction: column;
+    }
+    
+    .form .cont input {
+        width: 120%;
+    }
+    .form .contato textarea {
+        width: auto;
+        height: auto;
+    }
+
+    .form .button-form button {
+        width: 130%;
+    }
 }
