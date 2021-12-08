@@ -219,6 +219,17 @@ nav {
     margin: 1%;
 }
 
+/* footer */
+
+.container-footer {
+    background-color: darkgray;
+    height: 10rem;
+}
+
+.container-footer p {
+    text-align: center;
+}
+
 /* responsivo */
 @media (max-width: 640px) {
     body {
