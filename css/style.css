@@ -37,7 +37,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #ff4545;
+    background: #fa1d1dd5;
     height: 10vh;
 }
 
@@ -191,6 +191,35 @@ nav {
     font-size: 30px;
 }
 
+/* card tela principal */
+
+.exemplo .insta {
+    text-align: center;
+    font-size: 30px;
+}
+
+.exemplo .insta a {
+    color: #ff0000;
+}
+
+.exemplo .insta a:hover {
+    color: #ff4545;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+}
+
+.container-card img {
+    width: 300px;
+}
+
+.container-card .item {
+    margin: 1%;
+}
+
+/* responsivo */
 @media (max-width: 640px) {
     body {
         margin: 0;
@@ -227,4 +256,9 @@ nav {
     .form .button-form button {
         width: 130%;
     }
+
+    .container-card {
+        flex-direction: column;
+    }
 }
+
