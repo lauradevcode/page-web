@@ -1,8 +1,6 @@
 .pricipal {
     background-image: url(https://image.freepik.com/vetores-gratis/vetor-de-fundo-de-padrao-geometrico-branco-e-cinza_53876-136510.jpg);
 }
-
-
 * {
     margin: 0;
     padding: 0;
@@ -255,7 +253,7 @@ nav {
     .pricipal {
         flex-direction: column;
     }
-    
+
     .form .cont input {
         width: 120%;
     }
@@ -276,4 +274,3 @@ nav {
         widith: 20%
     }
 }
-
