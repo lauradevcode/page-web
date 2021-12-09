@@ -37,7 +37,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #fa1d1dd5;
+    background-image: linear-gradient(15deg, #ff0000 0%, #ff6d6d  100%);
     height: 10vh;
 }
 
@@ -222,7 +222,7 @@ nav {
 /* footer */
 
 .container-footer {
-    background-color: darkgray;
+    background-image: linear-gradient(15deg, #ffcdcd 0%, #ff6d6d  100%);
     height: 10rem;
 }
 
@@ -270,6 +270,10 @@ nav {
 
     .container-card {
         flex-direction: column;
+    }
+
+    .container-card img{
+        widith: 20%
     }
 }
 
