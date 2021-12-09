@@ -1,19 +1,19 @@
-.pricipal {
-    background-image: url(https://image.freepik.com/vetores-gratis/vetor-de-fundo-de-padrao-geometrico-branco-e-cinza_53876-136510.jpg);
-}
 * {
     margin: 0;
     padding: 0;
 }
-
+ul{
+  padding-left: 0!important;
+  margin-bottom: 0!important;
+}
 a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     transition: all .5s;
 }
 
-a:hover {
-    color: rgb(0, 255, 213);
+nav a:hover {
+    color: rgb(124, 129, 128);
 }
 
 /* nav */
@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(15deg, #ff0000 0%, #ff6d6d  100%);
+    background-color: red;
     height: 10vh;
 }
 
@@ -49,59 +49,6 @@ nav {
     letter-spacing: 1px;
     margin-left: 20px;
 }
-
-/* Container */
-
-.pricipal {
-    display: flex;
-}
-
-.container {
-    margin: 5%;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-}
-
-.container h1 {
-    margin: 2%;
-    font-size: 35px;
-}
-
-.container span {
-    color: #ff4545;
-}
-
-.container p {
-    font-size: 25px;
-    margin-left: 2%
-}
-
-.contrate button {
-    width: 200px;
-    border-radius: 25px;
-    font-weight: bolder;
-    margin-top: 1%;
-    margin-left: 2%;
-    font-size: 15px;
-}
-
-.contrate button a {
-    color: #ff4545;
-    animation: 0.5s;
-}
-
-.contrate button:hover a {
-    color: rgb(0, 0, 0);
-}
-
-.imagem img {
-    display: flex;
-    margin-top: 4em;
-}
-
-/* container secundario  */
-
 
 /* tela de formulario */
 
@@ -220,7 +167,7 @@ nav {
 /* footer */
 
 .container-footer {
-    background-image: linear-gradient(15deg, #ffcdcd 0%, #ff6d6d  100%);
+    background-color: red;
     height: 10rem;
 }
 
@@ -237,23 +184,17 @@ nav {
     nav {
         background-color: rgb(255, 0, 0);
         overflow: hidden;
+        text-align: center;
     }
 
     nav p {
         display: none;
-    }
-    nav a {
-        float: left;
-        display: block;
         text-align: center;
-        text-decoration: none;
-        font-size: 17px;
-      }
 
-    .pricipal {
-        flex-direction: column;
     }
-
+    ul .redes sociais{
+      margin-right: 10px!important;
+    }
     .form .cont input {
         width: 120%;
     }
@@ -271,6 +212,39 @@ nav {
     }
 
     .container-card img{
-        widith: 20%
+        width: 80%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: auto;
+
     }
+
+
+}
+
+.myButton {
+  margin-top: 2%;
+  margin-left: 2%;
+	box-shadow: 1px 0px 11px -1px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:8px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 50px #810e05;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
